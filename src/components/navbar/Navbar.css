@@ -1,0 +1,55 @@
+@font-face {
+  font-family: "TildaSansBlack";
+  src: url("C:\Users\pasta\Desktop\САЙТ ЗЕФА\klado-anna-coach\public\fonts\TildaSans-Light\TildaSans-Light.eot");
+  src: url("C:\Users\pasta\Desktop\САЙТ ЗЕФА\klado-anna-coach\public\fonts\TildaSans-Light\TildaSans-Light.eot?#iefix")
+      format("embedded-opentype"),
+    url("C:\Users\pasta\Desktop\САЙТ ЗЕФА\klado-anna-coach\public\fonts\TildaSans-Light\TildaSans-Light.woff")
+      format("woff2"),
+    url("C:\Users\pasta\Desktop\САЙТ ЗЕФА\klado-anna-coach\public\fonts\TildaSans-Light\TildaSans-Light.woff2")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.navbar {
+  font-family: "TildaSansBlack", sans-serif;
+  font-weight: normal;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 30px 300px;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.left-section {
+  display: flex;
+  gap: 20px;
+}
+
+.right-section {
+  display: flex;
+}
+
+.right-section a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #fff;
+  color: #000;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+.right-section a i {
+  font-size: 18px;
+}

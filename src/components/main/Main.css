@@ -1,0 +1,38 @@
+.main-container {
+  display: flex;
+  background-color: #1a1a1a;
+  color: #fff;
+}
+
+.text-section {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding-left: 300px;
+  padding-top: 300px;
+}
+
+.description {
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+.image-section {
+  background-image: url(./../../images/IMG_2526.jpg);
+  background-position: top;
+  background-size: cover;
+  width: 1500px;
+  height: 900px;
+  clip-path: polygon(100% 0, 100% 38%, 74% 100%, 0 100%, 51% 0);
+}
+
+.name {
+  margin: 0;
+  font-family: "TildaSansBlack", sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+}
+/* .image-section img {
+  width: 1000px;
+  clip-path: polygon(100% 0, 100% 14%, 54% 100%, 0 100%, 60% 0);
+} */
