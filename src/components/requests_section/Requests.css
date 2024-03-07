@@ -1,0 +1,16 @@
+.main-div-requests {
+  background-color: #fff;
+  gap: 100px;
+  padding: 150px 15px;
+}
+
+.header-requests {
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.list-div-main {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}

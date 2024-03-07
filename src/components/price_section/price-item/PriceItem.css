@@ -1,0 +1,29 @@
+.price-styled-item {
+  background-color: #ffffff;
+  padding: 50px;
+  border-radius: 30px;
+}
+
+.price-styled-item:hover {
+  transition: 0.3s;
+  box-shadow: 0px 0px 30px -3px rgba(0, 0, 0, 0.3);
+  transform: scale(1.05);
+}
+
+.price-styled-item-header {
+  margin-bottom: 20px;
+}
+
+.price-styled-item-price {
+  font-size: 42px;
+  margin: 30px;
+}
+.price-styled-item-list {
+  font-size: 20px;
+  list-style: none;
+  line-height: 20px;
+}
+.price-styled-item-list-item {
+  margin-bottom: 30px;
+  max-width: 300px;
+}

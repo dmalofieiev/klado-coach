@@ -1,3 +1,4 @@
+import Button from "../../ui/button/Button";
 import "./Main.css";
 // import image from "./../../images/IMG_2503.jpg";
 
@@ -10,6 +11,7 @@ const Main = () => {
         <p className="description">
           Формирование уникальной стратегии жизни для каждого
         </p>
+        <Button>Записаться</Button>
       </div>
       <div className="image-section">
         {/* <img src={image} alt="Main" /> */}
