@@ -1,0 +1,20 @@
+.main-div-if {
+}
+
+.if-section {
+  display: flex;
+  gap: 100px 100px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 80%;
+  margin: auto;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.if-header {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}

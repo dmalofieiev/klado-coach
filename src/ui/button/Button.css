@@ -1,23 +1,15 @@
-@font-face {
-  font-family: "TildaSansBlack";
-  src: url("C:\Users\pasta\Desktop\САЙТ ЗЕФА\klado-anna-coach\public\fonts\TildaSans-Light\TildaSans-Light.eot");
-  src: url("C:\Users\pasta\Desktop\САЙТ ЗЕФА\klado-anna-coach\public\fonts\TildaSans-Light\TildaSans-Light.eot?#iefix")
-      format("embedded-opentype"),
-    url("C:\Users\pasta\Desktop\САЙТ ЗЕФА\klado-anna-coach\public\fonts\TildaSans-Light\TildaSans-Light.woff")
-      format("woff2"),
-    url("C:\Users\pasta\Desktop\САЙТ ЗЕФА\klado-anna-coach\public\fonts\TildaSans-Light\TildaSans-Light.woff2")
-      format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
 .apply-button {
-  font-family: "TildaSansBlack" sans-serif !important;
   border: none;
   margin-top: 30px;
   color: #fff;
   background-color: #ed2204;
   height: 60px;
-  width: 150px;
+  width: 250px;
   font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.apply-button:hover {
+  background-color: #f76953;
 }

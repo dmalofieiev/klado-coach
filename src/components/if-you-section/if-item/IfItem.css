@@ -1,0 +1,5 @@
+.if-item-element {
+  position: relative;
+  padding: 20px;
+  flex-basis: 28%;
+}

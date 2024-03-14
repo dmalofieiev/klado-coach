@@ -1,0 +1,17 @@
+.about-coaching-wrapper {
+  background-color: #f2f2f2;
+  height: 200px;
+}
+
+.about-coaching-section {
+  padding-top: 70px;
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 auto 200px auto;
+  background-color: #fff;
+  width: 80%;
+  height: 200px;
+}

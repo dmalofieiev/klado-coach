@@ -1,18 +1,4 @@
-@font-face {
-  font-family: "TildaSansBlack";
-  src: url("C:\Users\pasta\Desktop\САЙТ ЗЕФА\klado-anna-coach\public\fonts\TildaSans-Light\TildaSans-Light.eot");
-  src: url("C:\Users\pasta\Desktop\САЙТ ЗЕФА\klado-anna-coach\public\fonts\TildaSans-Light\TildaSans-Light.eot?#iefix")
-      format("embedded-opentype"),
-    url("C:\Users\pasta\Desktop\САЙТ ЗЕФА\klado-anna-coach\public\fonts\TildaSans-Light\TildaSans-Light.woff")
-      format("woff2"),
-    url("C:\Users\pasta\Desktop\САЙТ ЗЕФА\klado-anna-coach\public\fonts\TildaSans-Light\TildaSans-Light.woff2")
-      format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
 .navbar {
-  font-family: "TildaSansBlack", sans-serif;
   font-weight: normal;
   display: flex;
   justify-content: space-between;
@@ -26,6 +12,14 @@
   color: #fff;
   text-decoration: none;
   margin-right: 10px;
+}
+
+.navbar .social-media-item:hover {
+  background-color: #c2c2c2;
+}
+
+.navbar .nav-item:hover {
+  color: #c2c2c2;
 }
 
 .left-section {

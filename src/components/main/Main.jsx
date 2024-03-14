@@ -6,12 +6,13 @@ const Main = () => {
   return (
     <div className="main-container">
       <div className="text-section">
-        <h1 className="name">Персональный коуч ICF</h1>
-        <h1 className="name">Анна Кладо</h1>
+        <h1 className="name">
+          Персональный коуч ICF <span className="new-line">Анна Кладо</span>
+        </h1>
         <p className="description">
-          Формирование уникальной стратегии жизни для каждого
+          Формирование уникальной стратегии <br /> жизни для каждого
         </p>
-        <Button>Записаться</Button>
+        <Button>Получить консультацию</Button>
       </div>
       <div className="image-section">
         {/* <img src={image} alt="Main" /> */}
